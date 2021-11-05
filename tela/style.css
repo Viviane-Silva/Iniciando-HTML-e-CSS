@@ -32,4 +32,15 @@ html,body{
 .artigo p{
     line-height: 15px;
     letter-spacing: 5px;
+    margin-right: 10px;
+}
+
+.lista{
+    display: inline-flex;
+    /* list-style-position: inside; */
+    list-style-type: none;
+}
+/* a ordem de prioridade vem de quando mais especifico for da classe para o elemnto, para aplicar o css */
+.lista li{
+    color: red;
 }
