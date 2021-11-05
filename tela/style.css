@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.menu{
+    width: 900px;
+    background-color: rgb(145, 131, 224);
+    /* margin é o espaçamento externo */
+    margin: 10px auto; 
+    /* padding é o espaçamento interno */
+    padding: 10px;
+}
+.menu a{
+    color: mintcream;
+}
