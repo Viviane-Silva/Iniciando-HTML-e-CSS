@@ -39,8 +39,13 @@ html,body{
     display: inline-flex;
     /* list-style-position: inside; */
     list-style-type: none;
+    gap:1em;
 }
 /* a ordem de prioridade vem de quando mais especifico for da classe para o elemnto, para aplicar o css */
 .lista li{
     color: red;
+}
+
+ul a{
+    gap: 1em;
 }
