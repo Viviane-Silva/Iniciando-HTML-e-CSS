@@ -46,11 +46,8 @@ html,body{
 .lista li{
     color: red;
 }
+   
 
-ul a{
-    gap: 1em;
-    
-}
 .img {
     width: 100px;
     height: 30px;
