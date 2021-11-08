@@ -46,15 +46,18 @@ html,body{
 .lista li{
     color: red;
 }
+.linkedin{
+    width: 90px;
+}
    
 
 .img {
-    width: 100px;
+    width: 70px;
     height: 30px;
     background-image: url("https://marcas-logos.net/wp-content/uploads/2020/01/LinkedIn-Logo-1-600x375.png");
     background-repeat: no-repeat;
-    background-position: center; 
-    background-size: cover;
+    /* background-position: center;  */
+    background-size: cover; /* especifica o tamanho da imagem conforme o objetivo (width, height)*/
     
 }
 
