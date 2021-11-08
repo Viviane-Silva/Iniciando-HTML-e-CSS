@@ -18,11 +18,11 @@ html,body{
     max-width: 800px;
     margin: 40px auto;
     text-align: center;
-    background-color: paleturquoise;
+    background-color: rgb(236, 253, 253);
     padding: 5px;
 }
 .texto h1{
-    color: orchid;
+    color: rgb(150, 45, 146);
     font-size: 20px;
     font-family:Georgia, 'Times New Roman', Times, serif;
     /* h1-h6 por padrão vem em bold, para tirar só colocar font-weight: normal */
@@ -49,13 +49,15 @@ html,body{
 
 ul a{
     gap: 1em;
+    
 }
 .img {
     width: 100px;
-    height: 20px;
+    height: 30px;
     background-image: url("https://marcas-logos.net/wp-content/uploads/2020/01/LinkedIn-Logo-1-600x375.png");
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center; 
     background-size: cover;
     
 }
+
