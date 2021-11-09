@@ -39,7 +39,7 @@ html,body{
     margin: 5px;
     display: inline-flex;
     /* list-style-position: inside; */
-    list-style-type: none;
+    list-style-type: none; 
     gap:1em;
 }
 /* a ordem de prioridade vem de quando mais especifico for da classe para o elemnto, para aplicar o css */
@@ -61,3 +61,18 @@ html,body{
     
 }
 
+form{
+    width: 90%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+form fieldset{
+    padding: 0 40px;
+    border: dotted;
+}
+
+form legend{
+    font-size: 20px;
+    color: mediumvioletred;
+
+}
