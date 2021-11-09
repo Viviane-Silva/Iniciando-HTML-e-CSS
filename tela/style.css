@@ -44,7 +44,7 @@ html,body{
 }
 /* a ordem de prioridade vem de quando mais especifico for da classe para o elemnto, para aplicar o css */
 .lista li{
-    color: red;
+    color: mediumvioletred;
 }
 .linkedin{
     width: 90px;
@@ -65,14 +65,26 @@ form{
     width: 90%;
     max-width: 600px;
     margin: 0 auto;
+    font-family: fantasy;
 }
 form fieldset{
-    padding: 0 40px;
+    padding: 20px 40px;
     border: dotted;
 }
 
 form legend{
+    padding: 5px;
     font-size: 20px;
     color: mediumvioletred;
 
+}
+form input{
+   margin: 10px 5px;
+    width: 260px;
+
+}
+
+select{
+    margin-top: 10px;
+    margin-left: 7px;
 }

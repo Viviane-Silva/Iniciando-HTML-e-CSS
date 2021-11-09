@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="stylesheet" href="../style.css">
+    <link rel="shortcut icon" href="../favicon_io/favicon-16x16.png">
 
 
     <title>Formulário</title>
@@ -17,8 +19,19 @@
         <fieldset>
             <!-- ao usar o fieldset por padrão deve se usar o legend pra por o nome do grupo-->
             <legend>Formulário</legend>
-            <div><input type="text" name="nome" placeholder="Digite seu nome"></div>
-            <div><input type="text" name="email" placeholder="Digite seu email"></div>
+            <div>Nome
+                <input type="text" name="nome" placeholder="Digite seu nome"></div>
+            <div>Email
+                <input type="text" name="email" placeholder="Digite seu email"></div>
+            <div ><label for="idade2">Qual é a sua idade? </label>
+                <select name="idade" id="idade">
+                    <!-- <option disabled selected> Qual sua idade?</option> -->
+                    <option value="18">+18</option>
+                    <option value="20">+20</option>
+                    <option value="25">+25</option>
+                    <option value="30">+30</option>
+                </select>
+            </div>
 
         </fieldset>
     </form>
