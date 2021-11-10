@@ -7,13 +7,13 @@
 }
 
 
-/* html,body são elementos pai
+/* html,body são elementos pai */
 html,body{
     height: 100%;
 }
- */
+
 .header{
-    height: 60px;
+    height: 50px;
     width: 100%;
     background-color: mediumorchid;
 
