@@ -55,6 +55,7 @@ html,body{
     top: -20px;
     background-color: burlywood;
     float: right;
+    margin-right: 10px;
 }
 
 .form h2{
@@ -109,4 +110,22 @@ html,body{
 
 .form input[type="submit"]:hover{
     background-color:mediumorchid ;
+}
+
+.container-list{
+    padding:60px;
+    margin-top: 20px;
+    margin-left: 20px;
+    float:left;
+    width: 500px;
+    height: 400px;
+    background-color:rgba(192, 186, 134, 0.5) ;
+    /* border: 10px solid rgba(211, 157, 96, 0.2); */
+}
+.container-list ul{
+    list-style-position: inside;
+}
+
+.container-list ul li{
+    margin-top: 20px;
 }
