@@ -64,3 +64,20 @@ html,body{
     font-family: 'Roboto Condensed', sans-serif;
     
 }
+
+.input-container{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.input-container span{
+    display: inline-block;
+    width: 100%;
+    color:violet;
+    font-size: 15px;
+}
+
+.input-container input[type=text]{
+    width:200px;
+    margin-top: 2px;
+}
