@@ -156,4 +156,27 @@ html,body{
 .icone{
     text-align:center;
     margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.footer{
+    border-top: 3px solid rgba(211, 157, 96);
+    padding: 20px 0;
+    display: flex;
+}
+.footer p{
+    margin-left: 20px;
+}
+
+.footr{
+    width: 400px;
+    flex: 1;
+}
+
+.linkedin img{
+    margin-right: 40px;
+    width: 35px;
+    height: 30px;
+    background-size: 100% 100%;
+    float: right;
 }
