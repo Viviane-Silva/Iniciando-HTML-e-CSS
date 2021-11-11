@@ -114,7 +114,7 @@ html,body{
 
 .container-list{
     padding:60px;
-    margin-top: 20px;
+    margin-top: 70px;
     margin-left: 20px;
     float:left;
     width: 500px;
@@ -127,5 +127,33 @@ html,body{
 }
 
 .container-list ul li{
+    margin-top: 20px;
+}
+
+.texto{
+    padding: 20px;
+    background-color: bisque;
+    text-align: center;
+}
+
+.texto-center p{
+    width: 600px;
+    margin: 10px;
+    display: inline-block;
+    text-align: justify;
+}
+
+.logo{
+    width: 20px;
+    height: 20px;
+    background-image: url("../favicon_io/faviconT-32x32.png");
+    background-size: 100% 100%;
+    position: relative;
+    top: 30px;
+    left: 50%;
+    margin-left: -20px;
+}
+.icone{
+    text-align:center;
     margin-top: 20px;
 }
