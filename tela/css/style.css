@@ -62,6 +62,8 @@ html,body{
     font-size: 15px;
     color:mediumorchid;
     font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    margin-top: 20px;
     
 }
 
@@ -75,9 +77,36 @@ html,body{
     width: 100%;
     color:violet;
     font-size: 15px;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 .input-container input[type=text]{
     width:200px;
     margin-top: 2px;
+}
+
+.obrigatorio{
+    margin-top: 20px;
+    margin-left:10px;
+    font-size: 15px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.form .input{
+    text-align: center;
+}
+
+.form input[type=submit]{
+    margin-top: 20px;
+    font-size: 15px;
+    font-family: 'Roboto Condensed', sans-serif;
+    width:100px;
+    height: 28px;
+    display: inline-block;
+    color:violet;
+    cursor: pointer;
+}
+
+.form input[type="submit"]:hover{
+    background-color:mediumorchid ;
 }
